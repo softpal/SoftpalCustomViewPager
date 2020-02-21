@@ -29,19 +29,20 @@ dependencies {
 ## Usage
 
  ## Adding in Your XML File
- 
-  <com.softpal.softpalcustomviewpager.CustomViewPager
+  
+    <com.softpal.softpalcustomviewpager.CustomViewPager
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
  ### 1. Calling CustomViewPager in Your  Fragment
- 
- setupViewPager(mViewPager);
+
+                  
+		  setupViewPager(mViewPager);
 		tabLayout.setupWithViewPager(mViewPager);
 		mViewPager.setAdapter(mSectionsPagerAdapter);
     
-    ```
+    
 
 
